@@ -1,0 +1,82 @@
+body{
+  background-image: url('https://img.freepik.com/free-photo/beautiful-planets-space_23-2149288538.jpg?t=st=1708778705~exp=1708782305~hmac=8e93800a41c71582317f6ef29982a6d02d9cff8f7e8ed776d30aa5445839c774&w=996');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  width: 100vw;
+  color: white;
+  background-color: rgb(25);
+   display: grid;
+  place-items: center;
+}
+
+.planet-card{
+border-radius: 20px;
+width:25rem;
+padding: 2rem;
+background-color: rgb(0 0 0/0.4);
+border: 1.5px solid black;
+box-shadow: 3px 5px 1px rgb(0 0 0/0.3);
+
+}
+
+
+.button {
+  margin: 2rem;
+}
+ul{
+  column-count: 2;
+  column-gap: 2rem;
+  justify-content: center;
+  line-height: 2;
+}
+
+.resident{
+  margin-top: 2rem;
+ 
+}
+
+li{
+  list-style: none;
+  font-size: 1rem;
+
+}
+span{
+  font-weight:bold;
+}
+h2{
+  text-align: center;
+  margin: 0;  
+
+}
+.rtitle{
+  text-align: center;
+}
+table{
+  text-align: center;
+  width: 100%;
+}
+tr{
+  line-height: 2;
+}
+.b{
+  margin-top: 2rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+.b:focus{
+  background-color: black;
+  color:white ;
+}
+.btn{
+  margin: 1rem;
+  padding-inline: 1rem;
+  padding-block: .5rem;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+
